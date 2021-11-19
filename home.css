@@ -1,0 +1,86 @@
+/*Century Gothic Font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+
+li,a,button {
+    font-family: "Century Gothic", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3 ease 0s;
+} 
+
+.nav_links li a:hover{
+    color: #ceae8c;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgb(66, 69, 70);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition:all 0.3 ease 0s; 
+}
+
+button:hover{
+    background-color: rgba(58, 61, 61, 0.8)
+}
+
+.banner{
+    display: flex;
+    max-width: auto;
+    justify-content: center;
+    background-color:black;  
+}
+
+#motto{
+    color: #c28c53;
+    margin:20px;
+    font-family: "Dancing Script";
+    text-align: center;
+}
+
+.img_reel{
+    float: left;
+    justify-content: space-between;
+}
+
+.img{
+    padding-left: 50px;
+    max-width: 24%;
+    height: auto;
+}
+

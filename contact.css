@@ -61,3 +61,8 @@ button:hover{
     justify-content: center;
     background-color:black;  
 }
+
+.hyperlinks{
+    text-decoration: underline;
+    font-size: x-large;
+}
