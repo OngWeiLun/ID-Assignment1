@@ -7,6 +7,11 @@
     <title>MENU</title>
     <link href = "menu.css" rel = "stylesheet" type = "text/css">
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+        *{
+            font-family: 'Didact Gothic', sans-serif;
+        }
         .heading{
             text-decoration: underline;
             padding: 30px;
@@ -18,17 +23,20 @@
             color: #ceae8c;
         }
         .container{
-            float:left;
             padding-right:100px;
         }
         .info{
             color: white;
-            justify-content: flex-end;
+            padding-left: 50px;
         }
         .flex-container{
+            flex-basis: auto;
             display: flex;
-            flex-wrap:column;
+            flex-flow:column wrap;
+            flex-direction: row;
+            /* border: aqua solid 15px; */ 
         }
+
     </style>
 </head>
 <body>
@@ -135,17 +143,30 @@
             </div>
         </div>
 
-        <div class = 'info';>
-            <h1 class = 'heading' style = 'color:white; padding-left:0px'>Operating Hours</h1>
-            
-            Mon - Wed: 11.30am - 10pm
-            <br>
-            Thu - Fri: 11.30am - 11pm
-            <br>
-            Sat: 8.30am - 11pm
-            <br>
-            Sun: 8.30am - 10pm
-            <br>
+        <div>
+            <h1 class = 'heading' style = 'color:white; '>Operating Hours</h1>
+            <div class = 'info';>
+                Mon - Wed: 11.30am - 10pm
+                <br>
+                Thu - Fri: 11.30am - 11pm
+                <br>
+                Sat: 8.30am - 11pm
+                <br>
+                Sun: 8.30am - 10pm
+                <br>
+                <br>
+                <h2 style = 'text-decoration: underline; color: white;'>Location</h2>
+                <br>
+                L1-81, The Shoppes
+                <br>
+                Nearest carpark: South (Blue zone)
+                <br>
+                <br>
+                <h2 style = 'text-decoration: underline; color: white;'>Dress Code</h2>
+                Smart Casual
+                <br>
+                <br>
+            </div>
         </div>
     </div>
 </body>

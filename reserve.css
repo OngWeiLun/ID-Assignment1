@@ -1,4 +1,5 @@
 *{
+    font-family: 'Century Gothic';
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -60,4 +61,32 @@ button:hover{
     max-width: auto;
     justify-content: center;
     background-color:black;  
+}
+
+.label{
+    color: #ceae8c;
+}
+
+.label > input{
+    background-color: white;
+}
+
+.sub{
+    color:white;
+    padding: 9px 25px;
+    background-color: rgb(66, 69, 70);
+    border: none;
+    border-radius: 50px;
+    transition:all 0.3 ease 0s; 
+}
+
+.sub:hover{
+    background-color: rgb(66, 69, 70,0.8);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border: black dotted 2px;
 }
