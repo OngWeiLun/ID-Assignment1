@@ -7,7 +7,7 @@ https://www.pinterest.com/pin/525162006536485899/
 My rationale for this website is to make it intuitive and easy to use.
 The NAV Bar is easily visible, and the buttons are straightforward.
 'Home' is the landing page.
-'Menu' is for the menu.
+'Menu'' is for the menu.
 'Reserve' is a form to fill in for reserving a table.
 'Contact' is lists all the ways to contact the restaurant.
 
