@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
 *{
     font-family: 'Century Gothic';
     box-sizing: border-box;
@@ -87,6 +89,16 @@ button:hover{
 form{
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    border: black dotted 2px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 2em;
+}
+
+h1{
+    color: #c28c53;
+    margin:20px;
+    font-family: "Dancing Script", sans-serif;
+    text-align: center;
+    padding: 0;
 }

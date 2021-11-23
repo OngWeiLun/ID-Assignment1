@@ -23,54 +23,54 @@
         <img src = 'logos\restaurantlogo.jpg' alt = 'Banner'>
     </div>
 
+    <div id = 'heading'>
+        <h1>Reserve A Seat !</h1>
+    </div>
+
     <form>
         <div>
-            <label class = 'label'> Name:
-                <br><input type = "text" placeholder = "Enter Name" required>
+            <label class = 'label' for = 'Name'> Name:
+                <input name = 'Name' type = "text" placeholder = "Enter Name" required>
             </label>
         </div>
-        <!-- <br>
-        <br> -->
+        <br>
         <div>
-            <label class = 'label'> Contact Number:
-                <br><input type = "tel" placeholder = "Enter Contact" required>
+            <label class = 'label' for = 'Contact'> Contact:
+                <input name = 'Contact' type = "tel" placeholder = "Enter Contact" required>
             </label>
         </div>
-        <!-- <br>
-        <br> -->
+        <br>
         <div>
-            <label class = 'label'>Pax:
-                <br>
-                <input type="radio" id="1" name="pax" value = "1">
-                <label for="1">1</label>
-                <br>
-                <input type = "radio" id = "2" name = "pax" value = "2">
-                <label for = "2">2</label>
+            <label class = 'label' for = 'Pax'>Pax:
+                
+                <input type = 'number' name = 'Pax' id = 'pax'>
             </label>
         </div>
-        <!-- <br>
-        <br> -->
+
+        <br>
         <div>
-            <label class = label>
+            <label class = label for = 'Date'>
                 Date:
-                <br>
-                <input type = 'date'>
+                
+                <input type = 'date' id = 'date' name = 'Date'>
             </label>
         </div>
-        <!-- <br>
-        <br> -->
+        <br>
         <div>
-            <label class = 'label'>
+            <label for = 'Time' class = 'label'>
                 Time:
-                <br>
-                <input type = 'time'>
+                
+                <input type = 'time' name = 'Time' id = 'time'>
             </label>
         </div>
-        <!-- <br>
-        <br> -->
+        <br>
         <div>
-            <input class="sub" type="submit" value="Submit">
+            <input onclick = "logfunction()" class="sub" type="submit" value="Submit">
         </div>
     </form>
+
+
+    <script type = "text/javascript" src="reserve.js">
+    </script>
 </body>
 </html>
