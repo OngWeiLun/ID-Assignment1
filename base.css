@@ -154,3 +154,16 @@ form{
 
 
 /* menu css -------------------------------------------------------------------------------------------- */
+.flex-container{
+    justify-content: space-evenly;
+}
+
+.deets{
+    flex-grow: 1;
+}
+
+.flex{
+    display:flex;
+    flex-direction: row;
+    border: #ceae8c solid 3px;
+}
