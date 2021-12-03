@@ -51,7 +51,11 @@ the browse.
 The reserve page has a form, which takes in user inputs and processes 
 them via javascript. The function in javascript is only called upon and
 run when the "Submit" button is clicked. The form takes in the Name,
-Phone Number, Pax, Date and Timeslot.
+Phone Number, Pax, Date and Timeslot. When the customer's information
+is successfully logged, an alert box would pop up displaying the message;
+"Reservation Succesful", which the customer can then close by pressing the
+"Ok" button. After taking in the information, the javascript creates an 
+objects that would store the customer and reservation information.
 
 The Contact page has multiple features. Firstly, it has straightforward
 texts showing the Phone Number of the restaurant that users can call and
