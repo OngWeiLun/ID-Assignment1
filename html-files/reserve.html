@@ -7,7 +7,6 @@
     <title>RESERVE</title>
     <link href = "../css-files/normalize.css" rel = "stylesheet" type = "text/css">
     <link href = "../css-files/base.css" rel = "stylesheet" type = "text/css">
-    <!-- <link href = "reserve.css" rel = "stylesheet" type = "text/css"> -->
 </head>
 <body>
     <header>
@@ -29,22 +28,22 @@
         <h1>Reserve A Seat !</h1>
     </div>
 
-    <form>
+    <form onsubmit = "handleLogin(event)">
         <div>
             <label class = 'label' for = 'Name'> Name:
-                <input name = 'Name' type = "text" placeholder = "Enter Name" id = "Name" required>
+                <input name = 'name' type = "text" placeholder = "Enter Name" id = "Name" required>
             </label>
         </div>
         <br>
         <div>
             <label class = 'label' for = 'Contact'> Contact:
-                <input name = 'Contact' type = "tel" placeholder = "Enter Contact" id = "Contact" required>
+                <input name = 'contact' type = "tel" placeholder = "Enter Contact" id = "Contact" required>
             </label>
         </div>
         <br>
         <div>
             <label class = 'label' for = 'Pax'>Pax:
-                <input type = 'number' name = 'Pax' id = 'Pax' required>
+                <input type = 'number' name = 'pax' id = 'Pax' required>
             </label>
         </div>
 
@@ -53,7 +52,7 @@
             <label class = label for = 'Date'>
                 Date:
                 
-                <input type = 'date' id = 'Date' name = 'Date' required>
+                <input type = 'date' id = 'Date' name = 'date' required>
             </label>
         </div>
         <br>
@@ -61,15 +60,14 @@
             <label for = 'Time' class = 'label'>
                 Time:
                 
-                <input type = 'time' name = 'Time' id = 'Time' required>
+                <input type = 'time' name = 'time' id = 'Time' required>
             </label>
         </div>
         <br>
         <div>
-            <input onclick = "logfunction()" class="sub" type="submit" value="Submit">
+            <input class="sub" type="submit" value="Submit">
         </div>
     </form>
-
 
     <script src="../js-files/reserve.js">
     </script>
