@@ -8,7 +8,7 @@ The credit for the logo I used goes to "Chesto", a user on pinterest.
 https://www.pinterest.com/pin/525162006536485899/
 All other pictures sourced from https://unsplash.com/
 
-Rationale
+Design Process
 ---------
 My rationale for this website is to make it intuitive and easy to use.
 The NAV Bar is easily visible, and the buttons are straightforward.
@@ -83,3 +83,6 @@ it's email and phone number. It also provides links to the restaurant's various
 social media, Instagram, Facebook and Twitter. It also has a link that sends the
 visitor to the restaurant's google page, where they can leave a review.
 
+Testing
+-------
+I) Reserve

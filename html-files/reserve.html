@@ -5,24 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RESERVE</title>
-    <link href = "..\css files\normalize.css" rel = "stylesheet" type = "text/css">
-    <link href = "..\css files\base.css" rel = "stylesheet" type = "text/css">
+    <link href = "../css-files/normalize.css" rel = "stylesheet" type = "text/css">
+    <link href = "../css-files/base.css" rel = "stylesheet" type = "text/css">
     <!-- <link href = "reserve.css" rel = "stylesheet" type = "text/css"> -->
 </head>
 <body>
     <header>
-        <img class = 'logo' src = "..\logos\PACE.jpg" alt = 'logo'>
+        <img class = 'logo' src = "../logos/PACE.jpg" alt = 'logo'>
         <nav>
             <ul class="nav_links">
-                <li><a href = 'http://127.0.0.1:5500/ID-Assignment1/html%20files/index.html'>Home</a></li>
-                <li><a class="active" href="http://127.0.0.1:5500/ID-Assignment1/html%20files/menu.html">Menu</a></li>
-                <li><a href="http://127.0.0.1:5500/ID-Assignment1/html%20files/reserve.html">Reserve</a></li>
+                <li><a href = 'http://127.0.0.1:5500/ID-Assignment1/html-files/index.html'>Home</a></li>
+                <li><a class="active" href="http://127.0.0.1:5500/ID-Assignment1/html-files/menu.html">Menu</a></li>
+                <li><a href="http://127.0.0.1:5500/ID-Assignment1/html-files/reserve.html">Reserve</a></li>
             </ul> 
         </nav>
-        <a class="cta" href="http://127.0.0.1:5500/ID-Assignment1/html%20files/contact.html"><button>Contact</button></a>
+        <button><a class="cta" href="http://127.0.0.1:5500/ID-Assignment1/html-files/contact.html">Contact</a></button>
     </header>
     <div class ='banner'>
-        <img src = '..\logos\restaurantlogo.jpg' alt = 'Banner'>
+        <img src = '../logos/restaurantlogo.jpg' alt = 'Banner'>
     </div>
 
     <div class = 'title'>
@@ -32,20 +32,19 @@
     <form>
         <div>
             <label class = 'label' for = 'Name'> Name:
-                <input name = 'Name' type = "text" placeholder = "Enter Name" required>
+                <input name = 'Name' type = "text" placeholder = "Enter Name" id = "Name" required>
             </label>
         </div>
         <br>
         <div>
             <label class = 'label' for = 'Contact'> Contact:
-                <input name = 'Contact' type = "tel" placeholder = "Enter Contact" required>
+                <input name = 'Contact' type = "tel" placeholder = "Enter Contact" id = "Contact" required>
             </label>
         </div>
         <br>
         <div>
             <label class = 'label' for = 'Pax'>Pax:
-                
-                <input type = 'number' name = 'Pax' id = 'pax'>
+                <input type = 'number' name = 'Pax' id = 'Pax' required>
             </label>
         </div>
 
@@ -54,7 +53,7 @@
             <label class = label for = 'Date'>
                 Date:
                 
-                <input type = 'date' id = 'date' name = 'Date'>
+                <input type = 'date' id = 'Date' name = 'Date' required>
             </label>
         </div>
         <br>
@@ -62,7 +61,7 @@
             <label for = 'Time' class = 'label'>
                 Time:
                 
-                <input type = 'time' name = 'Time' id = 'time'>
+                <input type = 'time' name = 'Time' id = 'Time' required>
             </label>
         </div>
         <br>
@@ -72,7 +71,7 @@
     </form>
 
 
-    <script type = "text/javascript" src="..\js files\reserve.js">
+    <script src="../js-files/reserve.js">
     </script>
 </body>
 </html>
