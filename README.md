@@ -1,12 +1,22 @@
 # ID-Assignment1
 
-Citations
----------
-This is my ID Assignment 1
-My website is made for a Fine Dining Restaurant, Named PACE.
-The credit for the logo I used goes to "Chesto", a user on pinterest.
-https://www.pinterest.com/pin/525162006536485899/
-All other pictures sourced from https://unsplash.com/
+PACE Fine Dining
+----------------
+This website is made for a fine dining restaurant called "PACE"
+It is a minimalistic restaurant that means to deliver high quality food
+to its customers.
+
+This restaurant prides itself on its pre-determined menu, and requires
+the privilage of being able to decide what the customers is going to have
+for their meal.
+
+This website will depict the attractive food and welcoming atmosphere the 
+restaurant provides and at the same time, follow the restaurant's theme of
+being minimalistic.
+
+This website will allow potential customers to know everything about the
+restaurant, allow them to reserve seats easily and provides them with
+contacts where they can send their queries to be satisfied.
 
 GitHub
 ------
@@ -93,3 +103,11 @@ I) Reserve
 i) Fill in all the fields
 ii) Press the submit button
 iii) Check if the console has logged the object correctly
+
+Citations
+---------
+This is my ID Assignment 1
+My website is made for a Fine Dining Restaurant, Named PACE.
+The credit for the logo I used goes to "Chesto", a user on pinterest.
+https://www.pinterest.com/pin/525162006536485899/
+All other pictures sourced from https://unsplash.com/

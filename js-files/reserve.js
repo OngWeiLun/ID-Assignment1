@@ -17,6 +17,7 @@ function handleLogin(e){
   };
   //logs the reservation
   console.log(output);
+  alert("Reservation Success!")
   return output;
 }
 
