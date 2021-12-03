@@ -8,6 +8,10 @@ The credit for the logo I used goes to "Chesto", a user on pinterest.
 https://www.pinterest.com/pin/525162006536485899/
 All other pictures sourced from https://unsplash.com/
 
+GitHub
+------
+https://github.com/OngWeiLun/ID-Assignment1
+
 Design Process
 ---------
 My rationale for this website is to make it intuitive and easy to use.
@@ -86,3 +90,6 @@ visitor to the restaurant's google page, where they can leave a review.
 Testing
 -------
 I) Reserve
+i) Fill in all the fields
+ii) Press the submit button
+iii) Check if the console has logged the object correctly
